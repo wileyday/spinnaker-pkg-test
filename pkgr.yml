@@ -1,0 +1,7 @@
+targets:
+  ubuntu-14.04: 
+    runner: upstart-1.5 
+    dependencies: 
+      - nodejs 
+      - npm
+default_dependencies: false
