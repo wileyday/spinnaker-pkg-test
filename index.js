@@ -5,7 +5,7 @@ app.get('/', function (req, res) {
   res.send('Hello World!');
 });
 
-app.get('/healcheck', function (req, res) {
+app.get('/healthcheck', function (req, res) {
   res.send('good!');
 });
 
