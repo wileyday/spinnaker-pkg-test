@@ -5,3 +5,4 @@ targets:
       - nodejs 
       - npm
 default_dependencies: false
+after_install: "postinstall.sh"
