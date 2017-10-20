@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function (req, res) {
-  res.send('Hello Spinnaker! Version 2');
+  res.send('Hello Spinnaker! Version 3');
 });
 
 app.get('/healthcheck', function (req, res) {
